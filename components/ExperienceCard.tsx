@@ -26,22 +26,21 @@ const ExperienceCard = ({
         viewport={{ once: true }}
         className="w-32 h-32 rounded-full  object-center object-contain"
         src={img}
-        alt=""
       />
       <div className=" px-0 md:px-10">
         <h4 className=" text-2xl font-light">{title}</h4>
         <p className=" font-bold text-xl mt-1">{company}</p>
         <div className=" flex space-x-2 my-2">
-          {skills.map((skill) => (
-            <img className=" w-12 h-10" src={skill} />
+          {skills.map((skill, i) => (
+            <img key={i} className=" w-12 h-10" src={skill} />
           ))}
         </div>
         <p className=" uppercase py-2 text-gray-300">
           Started work{date[0]} - {date[1]} Ended
         </p>
         <ul className=" list-disc space-y-2 ml-5 text-lg">
-          {summary.map((s) => (
-            <li>{s}</li>
+          {summary.map((s, i) => (
+            <li key={i}>{s}</li>
           ))}
         </ul>
       </div>

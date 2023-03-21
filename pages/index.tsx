@@ -16,23 +16,23 @@ const Home: NextPage = () => {
       {/* Header */}
       <Header />
       {/* Hero */}
-      <section id="hero" className="">
+      <section id="hero">
         <Hero />
       </section>
       {/* About */}
-      <section id="about" className="">
+      <section id="about">
         <About />
       </section>
       {/* Experience */}
-      <section id="experience" className=" ">
+      <section id="experience">
         <WorkExperience />
       </section>
       {/* Skills */}
-      <section id="skills" className=" ">
+      <section id="skills">
         <Skill />
       </section>
       {/* Projects */}
-      <section id="projects" className="">
+      <section id="projects">
         <Projects />
       </section>
     </div>
