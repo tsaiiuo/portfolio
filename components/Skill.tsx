@@ -58,7 +58,7 @@ const Skill = (props: Props) => {
           percent="47"
         />
         <Skillicon
-          url="https://www.ukus.tw/images/toeic_263px_v1.png"
+          url="https://www.ukus.tw/public/images/toeic_263px_v1.png"
           grad="880"
         />
         <Skillicon

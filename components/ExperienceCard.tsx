@@ -32,7 +32,7 @@ const ExperienceCard = ({
         <p className=" font-bold text-xl mt-1">{company}</p>
         <div className=" flex space-x-2 my-2">
           {skills.map((skill, i) => (
-            <img key={i} className=" w-12 h-10" src={skill} />
+            <img key={i} className=" w-9 h-9" src={skill} />
           ))}
         </div>
         <p className=" uppercase py-2 text-gray-300">
