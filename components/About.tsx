@@ -21,13 +21,13 @@ const About = (props: Props) => {
         className=" -mb-24 md:mb-0 flex-shrink-0 w-44 h-44  rounded-full object-cover md:rounded-lg  md:w-64 md:h-95 lg:w-[400px] lg:h-[400px]"
       />
       <div className=" space-y-10 px-0 md:px-10">
-        <h4 className=" text-4xl font-semibold">
-          NCCU MIS {"&"} Fintech Program
-        </h4>
-        <h3 className=" text-2xl font-semibold">Ian Tsai</h3>
+        <h4 className=" text-4xl font-semibold">蔡旻桓 Ian Tsai</h4>
+        <h3 className=" text-2xl font-semibold">MS NCKU EE </h3>
+        <h3 className=" text-2xl font-semibold">BS NCCU MIS </h3>
+
         <p className=" text-base">
           對程式語言抱持熱情也能理性的溝通和分析問題。除此之外，得利於樂天的個性，在團隊中我也時常擔任緩和劑的角色。本身較擅長軟體工程與企劃構想
-          另外對新創產業和金融科技有極大的熱情，目前也正與大學同學創業中
+          另外對新創產業和金融科技有極大的熱情
         </p>
       </div>
     </motion.div>

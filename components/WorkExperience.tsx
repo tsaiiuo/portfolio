@@ -47,10 +47,10 @@ const WorkExperience = (props: Props) => {
             skills.firebase,
             skills.javascript,
           ]}
-          summary={["驗收金流模組", "獨自負責3件專案，並"]}
+          summary={["驗收金流模組", "參與負責多件專案的前後端開發"]}
         />
         <ExperienceCard
-          img="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png"
+          img="https://upload.wikimedia.org/wikipedia/zh/thumb/3/33/National_Chengchi_University_logo.svg/1200px-National_Chengchi_University_logo.svg.png"
           title="政大黑客松第二名"
           company="Google,Appworks,政治大學"
           date={["2022-05"]}
@@ -60,7 +60,7 @@ const WorkExperience = (props: Props) => {
             skills.firebase,
             skills.javascript,
           ]}
-          summary={["123", "123"]}
+          summary={["LineBot應用"]}
         />
         <ExperienceCard
           img="https://upload.wikimedia.org/wikipedia/zh/thumb/3/33/National_Chengchi_University_logo.svg/1200px-National_Chengchi_University_logo.svg.png"
@@ -68,7 +68,7 @@ const WorkExperience = (props: Props) => {
           company="政治大學育成中心"
           date={["2022-05"]}
           skills={[]}
-          summary={["123", "123"]}
+          summary={["新創美妝工作訪", "取得Mac等開架美妝品贊助"]}
         />
       </div>
     </motion.div>
